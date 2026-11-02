@@ -1,0 +1,14 @@
+path: dataset_merged
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['earth_block', 'sky_block']
+
+roboflow:
+  workspace: fpp
+  project: xylyanh-ocmee
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fpp/xylyanh-ocmee/dataset/2

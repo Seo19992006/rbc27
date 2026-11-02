@@ -1,0 +1,30 @@
+﻿{
+    "old_source":  "C:\\Users\\Admin\\Downloads\\rbc27",
+    "new_source":  "C:\\Users\\Admin\\Downloads\\rbc27\\dataset_clean",
+    "output":  "C:\\Users\\Admin\\Downloads\\rbc27\\dataset_merged",
+    "duplicate_images_removed":  54,
+    "duplicate_label_conflicts":  [
+
+                                  ],
+    "boxes_per_class":  {
+                            "sky_block":  357,
+                            "earth_block":  561
+                        },
+    "splits":  [
+                   {
+                       "split":  "train",
+                       "image_count":  247,
+                       "label_count":  247
+                   },
+                   {
+                       "split":  "valid",
+                       "image_count":  18,
+                       "label_count":  18
+                   },
+                   {
+                       "split":  "test",
+                       "image_count":  10,
+                       "label_count":  10
+                   }
+               ]
+}

@@ -1,0 +1,5 @@
+﻿.uv-cache/
+runs/
+output_frames/
+*.pt
+.DS_Store

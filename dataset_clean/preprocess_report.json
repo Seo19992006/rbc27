@@ -1,0 +1,30 @@
+﻿{
+    "source":  "C:\\Users\\Admin\\Downloads\\rbc27\\xylyanh.v2i.yolov8",
+    "output":  "C:\\Users\\Admin\\Downloads\\rbc27\\dataset_clean",
+    "preprocessing":  "Keep image pixels; normalize YOLO label whitespace; preserve splits and box coordinates.",
+    "classes":  [
+                    "earth_block",
+                    "sky_block"
+                ],
+    "splits":  [
+                   {
+                       "split":  "train",
+                       "image_count":  192,
+                       "label_count":  192
+                   },
+                   {
+                       "split":  "valid",
+                       "image_count":  18,
+                       "label_count":  18
+                   },
+                   {
+                       "split":  "test",
+                       "image_count":  10,
+                       "label_count":  10
+                   }
+               ],
+    "boxes_per_class":  {
+                            "sky_block":  302,
+                            "earth_block":  501
+                        }
+}
